@@ -1,0 +1,18 @@
+POST http://localhost:3333/events
+Content-Type: application/json
+
+{
+  "title": "New Event",
+  "details": "Um evento para quem é apaixonado por programação",
+  "maximumAttendeees": 1
+}
+
+###
+
+POST http://localhost:3333/events/da207460-5d87-493a-829f-e395c4ed4c8e/attendees
+Content-Type: application/json
+
+{
+  "name": "Jefferson Shibuya",
+  "email": "jefferson@email.com"
+}
